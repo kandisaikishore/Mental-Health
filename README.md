@@ -1,5 +1,18 @@
 # Mental Health App
 
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?logo=github)](https://github.com/saikishore2410/Mental-Health) [![Issues](https://img.shields.io/github/issues/saikishore2410/Mental-Health)](https://github.com/saikishore2410/Mental-Health/issues) [![Last Commit](https://img.shields.io/github/last-commit/saikishore2410/Mental-Health)](https://github.com/saikishore2410/Mental-Health/commits/main)
+
+> This repository contains the application source and local development setup. This README is intended to help developers and reviewers understand the project, run it locally, and assess its current scope without overstating unverified capabilities.
+
+## At a glance
+
+- **Purpose:** Use the feature and scope sections below to understand the problem this project addresses.
+- **Getting started:** Follow the repository-specific setup instructions and verify commands against the current source and package scripts.
+- **Configuration:** Keep API keys, database credentials, tokens, and private user data out of commits; configure secrets locally.
+- **Quality checks:** Run the available build, test, and lint commands before submitting changes.
+
+
+
 **An application starter in the mental-wellbeing space; its supported workflows are defined by the project source.**
 
 ## Overview

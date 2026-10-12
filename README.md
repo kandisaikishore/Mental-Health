@@ -1,5 +1,10 @@
 # Mental Health App
 
+## Live Demo / Deployment URL
+
+**Deployment URL:** Not verified yet. Add the confirmed public application URL here after checking the live service. The GitHub repository link is not a deployment URL.
+
+
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?logo=github)](https://github.com/saikishore2410/Mental-Health) [![Issues](https://img.shields.io/github/issues/saikishore2410/Mental-Health)](https://github.com/saikishore2410/Mental-Health/issues) [![Last Commit](https://img.shields.io/github/last-commit/saikishore2410/Mental-Health)](https://github.com/saikishore2410/Mental-Health/commits/main)
 
 > This repository contains the application source and local development setup. This README is intended to help developers and reviewers understand the project, run it locally, and assess its current scope without overstating unverified capabilities.

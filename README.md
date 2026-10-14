@@ -1,69 +1,41 @@
 # Mental Health App
 
-## Live Demo / Deployment URL
+[![Source](https://img.shields.io/badge/Source-GitHub-181717?logo=github)](https://github.com/kandisaikishore/Mental-Health) [![Last Commit](https://img.shields.io/github/last-commit/kandisaikishore/Mental-Health)](https://github.com/kandisaikishore/Mental-Health/commits/main)
 
-**Deployment URL:** Not verified yet. Add the confirmed public application URL here after checking the live service. The GitHub repository link is not a deployment URL.
+A mental-wellbeing application project. It provides a codebase for exploring supportive information and wellbeing-oriented user experiences; consult the actual implementation for specific features.
 
+## Project principles
 
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?logo=github)](https://github.com/saikishore2410/Mental-Health) [![Issues](https://img.shields.io/github/issues/saikishore2410/Mental-Health)](https://github.com/saikishore2410/Mental-Health/issues) [![Last Commit](https://img.shields.io/github/last-commit/saikishore2410/Mental-Health)](https://github.com/saikishore2410/Mental-Health/commits/main)
+- Use clear, supportive, non-stigmatizing language
+- Make wellbeing content easy to navigate
+- Protect sensitive information and minimize collection of personal data
+- Ensure users can find appropriate professional or emergency support where relevant
 
-> This repository contains the application source and local development setup. This README is intended to help developers and reviewers understand the project, run it locally, and assess its current scope without overstating unverified capabilities.
-
-## At a glance
-
-- **Purpose:** Use the feature and scope sections below to understand the problem this project addresses.
-- **Getting started:** Follow the repository-specific setup instructions and verify commands against the current source and package scripts.
-- **Configuration:** Keep API keys, database credentials, tokens, and private user data out of commits; configure secrets locally.
-- **Quality checks:** Run the available build, test, and lint commands before submitting changes.
-
-
-
-**An application starter in the mental-wellbeing space; its supported workflows are defined by the project source.**
-
-## Overview
-
-This repository contains the application source and local development setup. This README is intended to help developers and reviewers understand the project, run it locally, and assess its current scope without overstating unverified capabilities.
-
-## Highlights
-
-- Application UI and source code
-- Local development with npm
-- Environment-based setup for supported AI features
-
-## Technology
-
-Node.js · npm · Gemini API (where configured)
-
-## Quick start
-
-Prerequisite: a compatible Node.js installation. From a terminal:
+## Getting started
 
 ```bash
- git clone https://github.com/saikishore2410/Mental-Health.git
- cd Mental-Health
- npm install
-# Add GEMINI_API_KEY to .env.local if required
-npm run dev
+git clone https://github.com/kandisaikishore/Mental-Health.git
+cd Mental-Health
 ```
 
-Configure environment variables locally before launching the app. Use the variable names expected by the current source code, and keep real credentials out of version control.
+Install dependencies and follow the runtime commands defined in the project's manifests. Configure credentials locally and never commit secrets or real user records.
 
-## Build and validation
+## Safety, privacy, and scope
 
-```bash
-npm run build
-```
+This project is not a substitute for mental-health assessment, diagnosis, treatment, or emergency services. Avoid presenting app content as clinical advice unless appropriately reviewed. Do not use identifiable or sensitive health data in demos, screenshots, or logs.
 
-Run any test or lint scripts defined in `package.json`. Review the source and deployment configuration before treating the application as production-ready.
+## Quality checklist
 
-## Configuration and limitations
-
-Position this as informational/supportive software—not diagnosis, treatment, or emergency care. Avoid entering sensitive personal details into a demo app.
+- Verify accessibility and mobile usability
+- Test privacy boundaries and form validation
+- Keep content supportive and fact-checked
+- Provide clear error states and appropriate support signposting
+- Document what data is stored and how it is protected
 
 ## Contributing
 
-Issues and focused pull requests are welcome. Include reproduction steps for bugs and describe the validation performed for changes.
+Open issues with reproduction steps and user-safety context. Changes affecting health-related content should include a clear review rationale.
 
 ## License
 
-No license is specified. Add a `LICENSE` file to define permitted reuse.
+No license file is currently declared. Add a `LICENSE` file to define reuse terms.
